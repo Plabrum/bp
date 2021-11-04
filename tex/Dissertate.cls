@@ -70,7 +70,7 @@
 
 \renewcommand\bibname{References}
 \renewcommand\listfigurename{Listing of figures}
-\RaggedRight
+% \RaggedRight
 
 \parindent 12pt
 \RequirePackage{mathspec}
