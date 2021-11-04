@@ -1,3 +1,5 @@
-.ipynb_checkpoints/
-IowaGamble/
-bipolar_theory.pdf
+*.ipynb_checkpoints/
+*.DS_Store
+/testing
+/source\ material
+/examples
