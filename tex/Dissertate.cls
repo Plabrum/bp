@@ -31,6 +31,10 @@
 \def\pdTwoSchool#1{\gdef\@pdTwoSchool{#1}}
 \def\pdTwoYear#1{\gdef\@pdTwoYear{#1}}
 
+%%Phil Included this part
+\usepackage{packages/Harvard/fltpage2}
+%%% end
+
 \RequirePackage{color}
 \usepackage{hyperref}
 \RequirePackage[tiny, md, sc]{titlesec}
@@ -89,11 +93,20 @@
 
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
 								textfont={sf,footnotesize,singlespacing},
-								justification={justified,RaggedRight},
+								justification={justified},
 								singlelinecheck=false,
 								margin=0pt,
 								figurewithin=chapter,
 								tablewithin=chapter]{caption}
+								
+% this is what was previously here, but it causes error: Package caption Error: Undefined justification `justified, RaggedRight'
+% \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
+% 								textfont={sf,footnotesize,singlespacing},
+% 								justification={justified,RaggedRight},
+% 								singlelinecheck=false,
+% 								margin=0pt,
+% 								figurewithin=chapter,
+% 								tablewithin=chapter]{caption}
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
